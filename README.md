@@ -58,7 +58,3 @@ curl -X POST "http://localhost:8000/mcp/query" \
      -d '{"question": "Create a simple Python script that prints hello world and save it to hello.py"}'
 ```
 
-Run evals:
-```bash
-PYTHONPATH=. uv run python tests/evals.py
-```
